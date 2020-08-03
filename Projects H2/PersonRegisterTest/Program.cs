@@ -55,11 +55,6 @@ namespace PersonRegisterTest
             Console.WriteLine("write work adress.");
             string workAdress = Console.ReadLine().ToString();
 
-            AddPersonToList(name, age, personNr, adress, job, salary, employer, workAdress, peoples);
-        }
-
-        public void AddPersonToList(string name, int age, int personNr, string adress, string job, double salary, string employer, string workAdress, List<Person> peoples)
-        {
             peoples.Add(new Person(name, age, personNr, adress, job, salary, employer, workAdress));
         }
     }

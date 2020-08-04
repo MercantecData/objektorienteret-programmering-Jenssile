@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace People
 {
-    public class Person // is used in the personregisterTest
+    public class Person
     {
         public string name;
         public int age;

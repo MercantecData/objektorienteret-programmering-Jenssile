@@ -10,9 +10,9 @@ namespace PersonRegisterTest
         {
             List<Person> peoples = new List<Person>
             {
-                new Person("bob", 20, 293749, "somewhere", "janitor", 700, "merc", "here"),
-                new Person("tess", 200, 1237, "somewhere", "janitor", 705670, "merc", "here"),
-                new Person("joke", 19, 91237, "somewhere", "janitor", 70230, "merc", "here")
+                new Person("bob", 20, 293749, "somewhere", "janitor", 700f, "merc", "here"),
+                new Person("tess", 200, 1237, "somewhere", "janitor", 705670f, "merc", "here"),
+                new Person("joke", 19, 91237, "somewhere", "janitor", 70230f, "merc", "here")
             };
 
             foreach (var item in peoples)

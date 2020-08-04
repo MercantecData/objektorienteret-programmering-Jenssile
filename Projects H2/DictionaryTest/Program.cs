@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DictionaryTest
+namespace Dictionarys
 {
     class Program
     {

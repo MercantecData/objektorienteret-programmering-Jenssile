@@ -5,8 +5,4 @@
     <RootNamespace>Projects_H2</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Person\Person.csproj" />
-  </ItemGroup>
-
 </Project>

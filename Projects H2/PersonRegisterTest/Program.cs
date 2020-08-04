@@ -1,4 +1,5 @@
 ﻿using People;
+using Register;
 using System;
 using System.Collections.Generic;
 
@@ -6,16 +7,15 @@ namespace PersonRegisterTest
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            List<Person> peoples = new List<Person>
-            {
-                new Person("bob", 20, 293749, "somewhere", "janitor", 700f, "merc", "here"),
-                new Person("tess", 200, 1237, "somewhere", "janitor", 705670f, "merc", "here"),
-                new Person("joke", 19, 91237, "somewhere", "janitor", 70230f, "merc", "here")
-            };
+            var peoples = new RegisterClass(new List<Person>());
 
-            foreach (var item in peoples)
+            peoples.AddToList(new Person("bob", 20, 293749, "somewhere", "janitor", 700d, "merc", "here"));
+            peoples.AddToList(new Person("tess", 200, 1237, "somewhere", "janitor", 705670d, "merc", "here"));
+            peoples.AddToList(new Person("joke", 19, 91237, "somewhere", "janitor", 70230d, "merc", "here"));
+
+            foreach (var item in peoples.GetList())
             {
                 Console.WriteLine("name: " + item.name);
                 Console.WriteLine("age: " + item.age);
@@ -55,7 +55,7 @@ namespace PersonRegisterTest
             Console.WriteLine("write work adress.");
             string workAdress = Console.ReadLine().ToString();
 
-            peoples.Add(new Person(name, age, personNr, adress, job, salary, employer, workAdress));
+            peoples.AddToList(new Person(name, age, personNr, adress, job, salary, employer, workAdress));
         }
     }
 }

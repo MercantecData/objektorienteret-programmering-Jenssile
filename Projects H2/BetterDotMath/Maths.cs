@@ -5,6 +5,8 @@ namespace BetterDotMath
 {
     public class Maths
     {
+        // This can be broken very easily, and the name better.math is a joke and this is only made to demonstrate Overloading.
+
         // Addition
         public int Add(int a, int b) { return a + b; }
         public int Add(int a, int b, int c) { return a + b + c; }

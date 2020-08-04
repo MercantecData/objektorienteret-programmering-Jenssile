@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects H2", "Projects H2\Projects H2.csproj", "{6E41B7C4-CFB9-45C1-924A-E547576A0B51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects H2", "Projects H2\Projects H2.csproj", "{6E41B7C4-CFB9-45C1-924A-E547576A0B51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{E74F9F88-EE3A-4BEB-A279-BF0745A22948}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "Person\Person.csproj", "{E74F9F88-EE3A-4BEB-A279-BF0745A22948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs", "Jobs\Jobs.csproj", "{643C2F96-885A-4C2D-AB53-86104E707BB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jobs", "Jobs\Jobs.csproj", "{643C2F96-885A-4C2D-AB53-86104E707BB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRegisterTest", "PersonRegisterTest\PersonRegisterTest.csproj", "{4D8A404B-D2DC-4678-ABC4-C1EFE58E5087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRegisterTest", "PersonRegisterTest\PersonRegisterTest.csproj", "{4D8A404B-D2DC-4678-ABC4-C1EFE58E5087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryTest", "DictionaryTest\DictionaryTest.csproj", "{8775F4AA-D57E-44AD-AE97-5EC6812D1F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicPerson", "BasicPerson\BasicPerson.csproj", "{249A1EBB-517C-44BC-8BBF-F2D1CC3A87C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{4D8A404B-D2DC-4678-ABC4-C1EFE58E5087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D8A404B-D2DC-4678-ABC4-C1EFE58E5087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D8A404B-D2DC-4678-ABC4-C1EFE58E5087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8775F4AA-D57E-44AD-AE97-5EC6812D1F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8775F4AA-D57E-44AD-AE97-5EC6812D1F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8775F4AA-D57E-44AD-AE97-5EC6812D1F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8775F4AA-D57E-44AD-AE97-5EC6812D1F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249A1EBB-517C-44BC-8BBF-F2D1CC3A87C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249A1EBB-517C-44BC-8BBF-F2D1CC3A87C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249A1EBB-517C-44BC-8BBF-F2D1CC3A87C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249A1EBB-517C-44BC-8BBF-F2D1CC3A87C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

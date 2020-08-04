@@ -38,6 +38,6 @@ namespace BetterDotMath
         public double Div(double a, double b, double c) { return a / b / c; }
 
         // Strings
-        public string Str(string a, string b) { return a + b; }
+        public string Add(string a, string b) { return a + b; }
     }
 }

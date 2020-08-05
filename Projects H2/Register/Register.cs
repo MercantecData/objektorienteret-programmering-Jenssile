@@ -6,7 +6,7 @@ namespace Register
 {
     public class RegisterClass
     {
-        public List<Person> peoples = new List<Person>();
+        private List<Person> peoples = new List<Person>();
 
         public RegisterClass(List<Person> peoples)
         {

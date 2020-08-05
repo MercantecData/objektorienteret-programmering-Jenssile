@@ -5,11 +5,11 @@ namespace People
 {
     public class Person
     {
-        public string name;
-        public int age;
-        public int personNr;
-        public string adress;
-        public Job job;
+        private string name;
+        private int age;
+        private int personNr;
+        private string adress;
+        private Job job;
 
         public Person(string name, int age, int personNr, string adress, string position, double salary, string employer, string workAdress)
         {

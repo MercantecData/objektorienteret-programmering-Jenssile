@@ -4,10 +4,10 @@ namespace people
 {
     public class Job
     {
-        public string position;
-        public double salary;
-        public string employer;
-        public string workAdress;
+        private string position;
+        private double salary;
+        private string employer;
+        private string workAdress;
 
         public Job(string position, double salary, string employer, string workAdress)
         {

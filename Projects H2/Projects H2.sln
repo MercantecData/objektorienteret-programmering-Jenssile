@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicPerson", "BasicPerson\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Register", "Register\Register.csproj", "{9FEC7929-87C8-4814-8F8B-E49A75EEE9EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterDotMath", "BetterDotMath\BetterDotMath.csproj", "{47853BBE-829B-4F88-B6E6-81F07BB01241}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetterDotMath", "BetterDotMath\BetterDotMath.csproj", "{47853BBE-829B-4F88-B6E6-81F07BB01241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem", "SchoolSystem\SchoolSystem.csproj", "{831462FA-3F65-4F3A-94E3-536C8A2E9DDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{47853BBE-829B-4F88-B6E6-81F07BB01241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47853BBE-829B-4F88-B6E6-81F07BB01241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47853BBE-829B-4F88-B6E6-81F07BB01241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831462FA-3F65-4F3A-94E3-536C8A2E9DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831462FA-3F65-4F3A-94E3-536C8A2E9DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831462FA-3F65-4F3A-94E3-536C8A2E9DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831462FA-3F65-4F3A-94E3-536C8A2E9DDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

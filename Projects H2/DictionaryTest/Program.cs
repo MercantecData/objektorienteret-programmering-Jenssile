@@ -36,9 +36,10 @@ namespace Dictionarys
                 { 10, false }
             };
 
+            var person = new Basicperson("bob", 25);
             Dictionary<Basicperson, string> classDict = new Dictionary<Basicperson, string>
             {
-                { new Basicperson("bob", 25), "test" }
+                { person, "test" }
             };
         }
     }

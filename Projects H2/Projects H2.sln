@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem", "SchoolSyste
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegats", "Delegats\Delegats.csproj", "{743CA935-FDBF-429C-9E4A-66EF1CDD9D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{3FD239A1-570F-4D2C-B560-FA175C10E917}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{3FD239A1-570F-4D2C-B560-FA175C10E917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{75E211B7-B016-40AB-BDC9-6CAD47ABCC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{5BC10C9E-7B88-4F4B-B385-FA4C7D2EC4F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{3FD239A1-570F-4D2C-B560-FA175C10E917}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FD239A1-570F-4D2C-B560-FA175C10E917}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FD239A1-570F-4D2C-B560-FA175C10E917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E211B7-B016-40AB-BDC9-6CAD47ABCC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E211B7-B016-40AB-BDC9-6CAD47ABCC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E211B7-B016-40AB-BDC9-6CAD47ABCC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E211B7-B016-40AB-BDC9-6CAD47ABCC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC10C9E-7B88-4F4B-B385-FA4C7D2EC4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC10C9E-7B88-4F4B-B385-FA4C7D2EC4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC10C9E-7B88-4F4B-B385-FA4C7D2EC4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC10C9E-7B88-4F4B-B385-FA4C7D2EC4F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
